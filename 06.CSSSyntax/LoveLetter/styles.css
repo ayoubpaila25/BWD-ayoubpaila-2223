@@ -1,44 +1,62 @@
 html {
-    background-color: #fff;
-    background-image: url(img/tile.png);
- }
- 
- body {
-    border: 10px solid white;
-    height: 600px;
-    margin: 20px auto;
-    max-width: 300px;   
-    padding: 40px 100px;
-    background-image:url(img/bg.png) ;
-    background-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    
- }
-body h1 { font-family:Dancing Script;
- }
- body p { 
-    font-family: Dancing Script;
-    font-size: 150%;
- }
-
- body footer { font-size: 100%;
+   background-color: #fff;
+   background-image: url(img/tile.png);
 }
 
- mark {
-    background-color: rgba(0, 0, 0, 0.267);
-    text-shadow: rgb(0, 0, 0);
- }
- 
- footer {
-    margin-top: 40px;
-    
- }
- 
- footer p {
-    margin: 0;
- }
- 
- .date {
-    margin-top: 10px;
- }
+body {
+   background-image: url(img/bg.png);
+   background-size: 100%;
+   border: 10px solid white;
+   border-color: white;
+   border-width: 0.5cm;
+   box-shadow: 2px 2px 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   height: 600px;
+   margin: 20px auto;
+   max-width: 300px;
+   padding: 40px 100px;
+}
+
+body h1 {
+   quotes: none;
+   font-family: Dancing Script, Arial, Helvetica, sans-serif;
+   font-size: 300%;
+}
+
+body p {
+   quotes: none;
+   font-family: Dancing Script, Arial, Helvetica, sans-serif;
+   font-size: 150%;
+}
+
+footer {
+   margin-top: 40px;
+
+}
+
+mark {
+   text-shadow: 2px 2px 15px rgb(228, 25, 25);
+   text-transform: capitalize;
+   background-color: transparent;
+   font-size: xx-large;
+   text-decoration: solid;
+
+
+}
+
+footer p {
+   margin: 0px;
+   margin-left: 30%;
+
+}
+
+
+.date {
+   margin-top: 10px;
+   margin-left: 55%;
+   font-size: 80%;
+}
+
+span {
+   color: red;
+}
