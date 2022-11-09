@@ -29,7 +29,7 @@ html {
 }
 
 .btn3 {
-    background-color: rgba(206, 206, 206, 0.356);
+    background-color: rgb(206, 206, 206);
     background-image: url(img/logo-tiktok.png);
     background-repeat: no-repeat;
     background-position-x: auto;
