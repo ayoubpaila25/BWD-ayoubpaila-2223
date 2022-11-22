@@ -1,0 +1,122 @@
+/**
+ *
+ * Common styles
+ *
+ * @author !put your name here!
+ *
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+html {
+   background-color: #dfdfdf;
+}
+
+body {
+   font-family: Roboto;
+   background-color: white;
+
+}
+
+
+
+
+/* ===========================================
+      Menu
+      =========================================== */
+
+
+nav a:hover {
+
+   background-color: #B52025;
+   text-decoration: underline;
+
+}
+
+nav {
+
+   list-style: none;
+   margin: 2%;
+   padding: 3%;
+}
+
+nav ul {
+   display: inline-flex;
+   list-style: none;
+   padding: 10px;
+   margin: 10px;
+}
+
+nav a {
+   padding: 0.2cm;
+   color: black;
+   text-decoration: none;
+
+}
+
+/* ===========================================
+      Banner
+      =========================================== */
+
+#banner {
+   background-image: url(../img/home_section_thumb3.jpg);
+   background-size: cover;
+   border-style: solid;
+   border-width: 5px;
+   border-color: #b52025;
+
+}
+
+#banner p {
+   background-color: black;
+   opacity: 0.7;
+   color: white;
+
+}
+
+
+/* ===========================================
+      Main
+      =========================================== */
+
+.minibanner {
+   border-style: groove;
+   border-width: medium;
+}
+
+.more a {
+   border: 2px solid;
+   color: #B52025;
+   padding: 2%;
+   border-radius: 15%;
+   margin: 1%;
+   text-decoration: none;
+
+
+}
+
+.more {
+   text-align: right;
+
+}
+
+#email {
+   background-color: #E2C7C8;
+
+}
+
+h3 {
+   color: #B52025;
+   text-transform: uppercase;
+
+}
+
+/* ===========================================
+      Footer
+      =========================================== */
+
+footer {
+   text-align: center;
+
+}
