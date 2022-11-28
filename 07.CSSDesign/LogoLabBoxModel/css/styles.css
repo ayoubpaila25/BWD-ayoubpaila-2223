@@ -1,0 +1,76 @@
+nav {
+    margin: 2%;
+    padding: 3%;
+}
+
+nav ul {
+    display: inline-flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav a {
+    padding: 0.2cm;
+}
+
+header {
+    border-bottom: 1.5cm rgba(207, 205, 205, 0.966) solid;
+}
+
+section a {
+    text-decoration: underline;
+}
+
+.button a {
+    padding: 2%;
+}
+
+section p {
+    padding: 2%;
+}
+
+#bestelnu {
+    margin-top: 15%;
+}
+
+main p {
+    margin-top:10%;
+}
+
+footer {
+    margin-top: 11%;
+}
+
+#ctaTwitter {
+    padding-left: 35%;
+    padding-top: 5%;
+}
+
+#ctaFacebook {
+    padding-left: 35%;
+    padding-top: 5%;
+}
+
+#ctaNetlog {
+    padding-left: 35%;
+    padding-top: 5%;
+}
+
+aside h4 {
+    margin-bottom: 5%
+}
+
+aside li {
+    margin-bottom: 4%
+}
+
+header ul {
+    padding-bottom: 5%;
+}
+
+#topbar {
+    margin-bottom: 15%;
+}
+footer ul {
+    margin-top: 15%;
+}
