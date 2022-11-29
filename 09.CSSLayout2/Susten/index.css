@@ -1,0 +1,233 @@
+#banner {
+    align-items: center;
+    background-image: url(img/header.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner_box {
+    line-height: 1.8;
+    margin: 0px auto;
+    padding: 120px 350px 40px 0;
+}
+
+.banner_box p {
+    color: white;
+    font-family: Manjari;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+}
+.bottom_content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    margin-top: 60px;
+}
+.btn-cta {
+    margin-left: 12px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+h1,
+h2,
+h3 {
+    color: #fff;
+    font-family: Manjari;
+    font-weight: bold;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+    margin: auto;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header .wrapper {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    max-width: 965px;
+    padding: 36px 0px 36px;
+    width: 105%;
+}
+
+
+#mainmenu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+
+#mainmenu a {
+    color: #2fdb04;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 9px;
+    text-decoration: none;
+}
+
+#mainmenu li a:hover,
+#mainmenu .active a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #2fdb04;
+}
+
+main {
+    margin: auto;
+    max-width: 960px;
+}
+
+main h1 {
+    color: rgba(0, 195, 255, 0.788);
+    font-weight: 900;
+    padding: 40px 0 20px;
+}
+
+main h2 {
+    color: rgba(0, 195, 255, 0.616);
+}
+
+main p {
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+.top_content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+
+
+.Learnmore {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 6px;
+    text-decoration: none;
+}
+
+.Learnmore p::after {
+    content: " ▶";
+}
+
+.Readtheletter {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 6px;
+    text-decoration: none;
+}
+
+.Readtheletter p::after {
+    content: " ▶";
+}
+
+#stakeholders {
+    width: 40%;
+}
+
+#report a {
+    line-height: 1.5;
+}
+
+#report h3 {
+    color: rgb(8, 98, 126);
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+
+#report {
+    background-color: rgba(4, 192, 255, 0.185);
+    border: 2px solid rgba(0, 195, 255, 0.671);
+    height: 153px;
+    padding: 20px;
+    width: 422px;
+}
+
+#report ul {
+    color: rgb(8, 98, 126);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: underline;
+}
+
+#video {
+    padding-left: 47px;
+    padding-right: 25px;
+}
+
+footer {
+    background-color: rgb(14, 14, 14);
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 40px 0 20px 0;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+
+}
+
+#copy {
+    font-size: 80%;
+}
+
+footer li a {
+    color: white;
+    padding: 0 20px 0 0;
+}
+
+#menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+#Newsletter {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+}
+
+#left {
+    padding: 0 82px;
+}
+
