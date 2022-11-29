@@ -1,0 +1,69 @@
+/* ===========================================
+   Main
+   =========================================== */
+
+/* top */
+
+#main_top {
+   padding: 30px 15px 0 15px;
+}
+
+#main_top h2 {
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+address {
+   font-size: 14px;
+   font-style: normal;
+   line-height: 1.6;
+   margin-bottom: 20px;
+}
+
+/* bottom */
+
+#main_bottom {
+   padding: 30px 15px 0 15px;
+}
+
+iframe {
+   border: none;
+   width:80%;
+}
+
+#inpMessage {
+width: 250px;
+height: 100px;
+}
+
+#bottom_content {
+display: flex;
+justify-content: space-between;
+}
+
+#bottom_content p {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+}
+
+#bottom_content p label {
+padding-right: 53px;
+}
+
+.left {
+   width: 30%;
+   margin-right: 35px;
+}
+/* form */
+
+form label {
+   font-size: 16px;
+   font-style: italic;
+}
+
+form input {
+   padding: 7px;
+   width: 300px;
+}
+
