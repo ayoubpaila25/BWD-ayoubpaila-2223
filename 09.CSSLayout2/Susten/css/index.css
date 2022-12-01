@@ -1,6 +1,6 @@
 #banner {
     align-items: center;
-    background-image: url(img/header.jpg);
+    background-image: url(header.jpg);
     background-size: cover;
     display: flex;
     justify-content: flex-end;
@@ -14,11 +14,12 @@
 
 .banner_box p {
     color: white;
-    font-family: Manjari;
-    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
+    font-style: italic;
     font-weight: bold;
 }
+
 .bottom_content {
     display: flex;
     flex-flow: row nowrap;
@@ -26,6 +27,7 @@
     margin-bottom: 70px;
     margin-top: 60px;
 }
+
 .btn-cta {
     margin-left: 12px;
 }
@@ -42,14 +44,14 @@ h1,
 h2,
 h3 {
     color: #fff;
-    font-family: Manjari;
+    font-family: sans-serif, Manjari;
     font-weight: bold;
 }
 
 img {
     border: 0;
-    max-width: 100%;
     margin: auto;
+    max-width: 100%;
 }
 
 p {
@@ -85,8 +87,8 @@ header .wrapper {
 
 #mainmenu a {
     color: #2fdb04;
-    font-size: 17px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
     font-weight: bold;
     padding: 9px;
     text-decoration: none;
@@ -94,9 +96,10 @@ header .wrapper {
 
 #mainmenu li a:hover,
 #mainmenu .active a {
+    background-color: #2fdb04;
     color: #fff;
     text-decoration: none;
-    background-color: #2fdb04;
+
 }
 
 main {
@@ -192,10 +195,11 @@ footer {
     color: white;
     display: flex;
     flex-flow: row nowrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     justify-content: center;
     padding: 40px 0 20px 0;
     width: 100%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 footer ul {
@@ -230,4 +234,3 @@ footer li a {
 #left {
     padding: 0 82px;
 }
-
