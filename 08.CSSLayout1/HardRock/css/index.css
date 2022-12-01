@@ -2,74 +2,72 @@
    Banner
    =========================================== */
 
-   #banner {
-      background-image: url(../img/banner.jpg);
-      background-size: cover;
-   }
-   
-   .banner_box {
-      padding: 120px 0 60px 0;
-   }
-   
-   .banner_box .btn-cta {
-      font-size: 18px;
-      padding: 14px 60px;   
-   }
-   
-   .banner_box p {
-      color: white;
-      font-size: 30px;
-      font-weight: bold;
-      margin-bottom: 30px;
-   }
-   
-   /* ===========================================
+#banner {
+   background-image: url(../img/banner.jpg);
+   background-size: cover;
+}
+
+.banner_box {
+   padding: 120px 0 60px 0;
+}
+
+.banner_box .btn-cta {
+   font-size: 18px;
+   padding: 14px 60px;
+}
+
+.banner_box p {
+   color: white;
+   font-size: 30px;
+   font-weight: bold;
+   margin-bottom: 30px;
+}
+
+/* ===========================================
       Main
       =========================================== */
-   
-   main {
-      display: flex;
-   }
-   
-   /* left */
-   
-   .left {
-      padding: 30px 15px 0 15px;
-      margin-right: 50px;
-      width: 60%;
-   }
-   
-   #gallery {
-      margin: 10px 0;
-      width: 140%;
-      
-   }
-   
-   /* right */
-   
-   .right {
-      padding: 30px 15px 0 15px;
-      width: 30%;
-      margin-left: 8%;
-   }
-   
-  
-   .right h3 a {
-      color: #333;
-      border-bottom: 1px solid #cccccc;
-   }
-   
-   .right h3 a:hover {
-      color: #be0a35;
-      text-decoration: none;
-   }
-   .right img {
-      float: left;
-      margin-right: 2%;
-      width: 140px;
-      
-   }
-  
-  
-   
-   
+
+main {
+   display: flex;
+}
+
+/* left */
+
+.left {
+   padding: 30px 15px 0 15px;
+   margin-right: 50px;
+   width: 60%;
+}
+
+#gallery {
+   margin: 10px 0;
+   width: 140%;
+
+}
+
+/* right */
+
+.right {
+   margin-left: 8%;
+   padding: 30px 15px 0 15px;
+   width: 30%;
+
+}
+
+
+.right h3 a {
+   border-bottom: 1px solid #cccccc;
+   color: #333;
+
+}
+
+.right h3 a:hover {
+   color: #be0a35;
+   text-decoration: none;
+}
+
+.right img {
+   float: left;
+   margin-right: 2%;
+   width: 140px;
+}

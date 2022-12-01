@@ -28,17 +28,17 @@ address {
 
 iframe {
    border: none;
-   width:80%;
+   width: 80%;
 }
 
 #inpMessage {
-width: 250px;
-height: 100px;
+   height: 100px;
+   width: 250px;
 }
 
 #bottom_content {
-display: flex;
-justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
 }
 
 #bottom_content p {
@@ -48,13 +48,15 @@ justify-content: space-between;
 }
 
 #bottom_content p label {
-padding-right: 53px;
+   padding-right: 53px;
 }
 
 .left {
-   width: 30%;
    margin-right: 35px;
+   width: 30%;
+
 }
+
 /* form */
 
 form label {
@@ -66,4 +68,3 @@ form input {
    padding: 7px;
    width: 300px;
 }
-

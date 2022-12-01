@@ -12,54 +12,59 @@
 /* reset */
 
 * {
-   box-sizing: border-box; /* width and height include paddings and borders */
-   margin: 0; /* wipe out browser differences */
-   padding: 0; /* wipe out browser differences */ 
+   box-sizing: border-box;
+   /* width and height include paddings and borders */
+   margin: 0;
+   /* wipe out browser differences */
+   padding: 0;
+   /* wipe out browser differences */
 }
 
 img {
    border: 0;
    max-width: 100%;
 }
-   
+
 body {
-	background-color: #f5f5f5;
-	font-family: Arial, Verdana, Tahoma;
-	font-size: 14px; 
+   background-color: #f5f5f5;
+   font-family: Arial, Verdana, Tahoma, sans-serif;
+   font-size: 14px;
    line-height: 1.4;
 }
 
 /* elements */
 
-h1, h2, h3 {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+h1,
+h2,
+h3 {
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 h2 {
-	color: #333;
-	font-size: 24px;
-	font-weight: normal;
-	margin-bottom: 25px;
+   color: #333;
+   font-size: 24px;
+   font-weight: normal;
+   margin-bottom: 25px;
 }
 
 h3 {
-	font-size: 18px;
-	font-weight: normal;
-	margin-bottom: 20px;
+   font-size: 18px;
+   font-weight: normal;
+   margin-bottom: 20px;
 }
 
 p {
-	margin-bottom: 20px;
+   margin-bottom: 20px;
 }
 
 a {
-	color: #17a348;
-	text-decoration: none;
+   color: #17a348;
+   text-decoration: none;
 }
 
 a:hover {
-	color: #14833b;
-	text-decoration: underline;
+   color: #14833b;
+   text-decoration: underline;
 }
 
 /* classes */
@@ -81,7 +86,7 @@ a.lnk-cta::after {
    display: inline-block;
    font-size: 16px;
    font-weight: 600;
-   padding: 8px 16px;   
+   padding: 8px 16px;
    text-decoration: none;
    text-transform: uppercase;
    transition: background 0.5s;
@@ -105,39 +110,16 @@ a.btn-cta:hover {
    =========================================== */
 
 header {
-   background: linear-gradient(0deg, rgba(200,200,200,1) 35%, rgba(240,240,240,1) 85%);
-} 
-
-header .wrapper {
-	padding: 20px 0;
-}  
-
-/* logo */
-
-.logo h1 {
-	font-size: 48px;
+   background: linear-gradient(0deg, rgba(200, 200, 200, 1) 35%, rgba(240, 240, 240, 1) 85%);
 }
 
-.logo h1 a {
-	color: #333;
-   font-family: 'Special Elite', cursive;
-}
-
-.logo h1 a:hover {
-	text-decoration: none;
-}
-
-.logo p {
-	font-size: 14px;
-	color: #555;
-	font-style: italic;
-}
 header .wrapper {
    align-items: center;
    display: flex;
+   padding: 20px 0;
    justify-content: space-between;
-
 }
+
 header li {
    margin: 15px;
 }
@@ -145,10 +127,33 @@ header li {
 header ul {
    display: flex;
 }
-.wrapper {
- margin-left: 10%;
- margin-right: 10%;
+
+/* logo */
+
+.logo h1 {
+   font-size: 48px;
 }
+
+.logo h1 a {
+   color: #333;
+   font-family: 'Special Elite', cursive;
+}
+
+.logo h1 a:hover {
+   text-decoration: none;
+}
+
+.logo p {
+   color: #555;
+   font-size: 14px;
+   font-style: italic;
+}
+
+.wrapper {
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
 /* navigation */
 
 #mainmenu {
@@ -163,8 +168,8 @@ header ul {
 
 #mainmenu a:hover,
 #mainmenu .active a {
-	color: #14833b;
-	text-decoration: none;
+   color: #14833b;
+   text-decoration: none;
 }
 
 /* ===========================================
@@ -174,13 +179,13 @@ header ul {
 /* general */
 
 main {
-	background-color: #fff;
+   background-color: #fff;
    padding-bottom: 50px;
 }
 
 main p {
-	color: #666;
-	line-height: 20px;
+   color: #666;
+   line-height: 20px;
 }
 
 /* ===========================================
@@ -188,34 +193,29 @@ main p {
    =========================================== */
 
 footer {
+   align-items: center;
    background-color: #fff;
    border-top: 2px solid #ebeceb;
    color: #666;
-   font-size: 11px;
-   padding: 15px;
-   width: 100%;
-   max-width: 80%;
-   margin: 0px auto;
-   justify-content: space-between;
    display: flex;
    flex-flow: row nowrap;
-   align-items: center;
+   font-size: 11px;
+   justify-content: space-between;
+   max-width: 80%;
+   margin: 0px auto;
+   padding: 15px;
+   width: 100%;
 }
 
-footer > div a {
-	text-decoration: underline;
-	color: #666;
-	font-size: 11px;
-
+footer>div a {
+   color: #666;
+   font-size: 11px;
+   text-decoration: underline;
 }
+
 #social_icons {
-	list-style:none;
    display: flex;
    flex-flow: row wrap;
-}
-
-#social_icons {
    list-style: none;
    padding: 10px;
 }
-
