@@ -1,0 +1,371 @@
+/**
+ * Styles for The Lonely Cowboy
+ *
+ * @author Rogier van der Linde
+ *
+ */
+
+
+/* ===========================================
+   Reset
+   =========================================== */
+
+img {
+	border: 0.001;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* ===========================================
+	General
+	=========================================== */
+html {
+	font-size: 73%;
+}
+
+body {
+	background-color: #f1f1f1;
+	color: #000;
+	font-family: "Raleway", sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+.wrapper {
+	max-width: 180rem;
+	min-width: 40rem;
+}
+
+a {
+	color: #982216;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+
+/* ===========================================
+	Header
+	=========================================== */
+
+header {
+	padding: 3.58rem 2rem;
+}
+
+header>h1 {
+	font-size: 2.6rem;
+	font-weight: bold;
+	margin: 1rem 0;
+	text-align: center;
+}
+
+header .inverted {
+	background-color: #000;
+	color: #fff;
+	padding: 0 0.756rem;
+}
+
+@keyframes bummer {
+	0% {
+		transform: scale(0, 1);
+	}
+}
+
+header p {
+	animation: bummer 1.8s;
+	margin: 1.5rem 0;
+	text-align: center;
+	transform: scale(1, 1);
+	-webkit-animation: bummer 5s;
+	-webkit-transform: scale(1, 1);
+	
+}
+
+
+/* ===========================================
+	Nav
+	=========================================== */
+
+nav {
+	padding-bottom: 2rem;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+
+nav li.active {
+	background-color: #ccc;
+}
+
+nav li:hover {
+	background-color: #fff;
+}
+
+nav li a {
+	color: #000;
+	display: block;
+	padding: 1rem 1.8rem;
+}
+
+
+/* ===========================================
+	Cards
+	=========================================== */
+
+.card {
+	background: #fff;
+	box-shadow: 0 0.4rem 1rem 0 rgba(0, 0, 0, 0.2);
+	margin: 8.2rem 2.6rem;
+}
+
+.card .container {
+	padding: 1rem 1.6rem 1.6rem 1.6rem;
+}
+
+.card .content {
+	margin: 2.4rem 0;
+}
+
+/* ===========================================
+	Main
+	=========================================== */
+
+main {
+	display: flex;
+}
+
+#blogentries {
+	width: 100rem;
+}
+
+aside {
+	display: none;
+}
+
+
+/* ===========================================
+	Blog entries
+	=========================================== */
+
+.entry h1 {
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+
+.entry .subtitle {
+	font-size: 1.8rem;
+	margin: 1rem 0;
+}
+
+.entry .date {
+	opacity: 0.60;
+}
+
+.entry_footer {
+	justify-content: space-between;
+}
+
+.entry .button {
+	border: 0.1rem solid #ccc;
+	padding: 1.2rem 2.4rem;
+}
+
+.entry .button:hover {
+	background-color: #ccc;
+}
+
+.entry .button a {
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.entry .badge,
+.entry .tag {
+	background-color: #000;
+	color: #fff;
+	display: inline-block;
+	font-weight: normal;
+	margin-left: 0.8rem;
+	padding: 0 0.8rem;
+	text-align: center;
+}
+
+.entry .badge {
+	border-radius: 50%;
+}
+
+.entry .comments {
+	font-weight: bold;
+	padding: 1.2rem 2.4rem;
+}
+
+
+/* ===========================================
+	CV
+	=========================================== */
+
+.cv h3 {
+	font-size: 2.0rem;
+}
+
+.cv .content {
+	margin: 1.5rem 0 1rem 0;
+}
+
+
+/* ===========================================
+	Popular
+	=========================================== */
+
+.popular li img {
+	float: left;
+	margin-right: 1.6rem;
+	width: 5rem;
+}
+
+.popular li {
+	border-bottom: 0.1rem solid #ddd;
+	padding: 1.6rem;
+}
+
+.popular li:hover {
+	background-color: #ccc;
+}
+
+.popular img+p {
+	font-size: 1.8rem;
+}
+
+.popular h3,
+#tags h3 {
+	background-color: #f1f1f1;
+	font-size: 2rem;
+	font-weight: 400;
+	padding: 1.6rem;
+}
+
+/* ===========================================
+	Tags
+	=========================================== */
+
+#tags ul {
+	margin: 1.6rem;
+}
+
+#tags li {
+	background-color: #f1f1f1;
+	display: inline-block;
+	margin-bottom: 1.6rem;
+
+}
+
+#tags li a {
+	color: #000;
+	font-size: 1.2rem;
+	padding: 0 0.8rem;
+}
+
+
+/* ===========================================
+	Footer
+	=========================================== */
+
+
+.site_footer {
+	background-color: #616161;
+	color: #fff;
+
+}
+
+.site_footer a {
+	color: #fff;
+}
+
+.site_footer .wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 3.2rem 1.6rem;
+	margin-top: 1.6rem;
+	max-width: 100%;
+}
+
+.site_footer .buttons,
+.site_footer .social {
+	margin: 0;
+	text-align: center;
+}
+
+.site_footer .buttons a {
+	background-color: #000;
+	color: #000;
+	display: inline-block;
+	padding: 1.2rem 2.4rem;
+	color: #fff;
+}
+
+.site_footer .buttons a:hover {
+	background-color: #ccc;
+	color: #000;
+}
+
+.site_footer .buttons a.inactive {
+	cursor: not-allowed;
+	opacity: 0.3;
+}
+
+.site_footer .social {
+	text-align: right;
+	margin-top: 3.2rem;
+}
+
+.site_footer .social a {
+	font-size: 2.1rem;
+}
+
+.site_footer .social a+a {
+	padding-left: 1.5rem;
+}
+
+.site_footer .social p+p {
+	margin-top: 0.3rem;
+}
+
+/* ===========================================
+	Media queries
+	=========================================== */
+@media(min-width: 40rem) {
+	header>h1 {
+		font-size: 3.6rem;
+	}
+}
+
+@media (min-width: 60rem) {
+	body {
+		font-size: 1.4rem
+	}
+}
+
+@media (min-width: 40rem) {
+	aside {
+		display: block;
+		width: 40rem;
+	}
+}
